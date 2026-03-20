@@ -11,4 +11,4 @@ SELECT title, director FROM movies WHERE director != "John Lasseter";
 
 
 Find all the WALL-* movies ✓
-SELE
+SELECT* FROM movies WHERE title LIKE 'WALL-%';
